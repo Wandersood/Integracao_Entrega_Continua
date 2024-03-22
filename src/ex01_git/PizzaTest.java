@@ -10,7 +10,7 @@ class PizzaTest {
 	public void testGetPreco() {
 		Pizza p1 = new Pizza();
 		p1.adicionaIngredientes("mussarela");
-		p1.adicionaIngredientes("tomate");
+		p1.adicionaIngredientes("oregano");
 		assertEquals(30,p1.getPreco(),0);
 	}
 	
@@ -19,7 +19,7 @@ class PizzaTest {
 		Pizza p1 = new Pizza();
 		p1.adicionaIngredientes("mussarela");
 		p1.adicionaIngredientes("oregano");
-		p1.adicionaIngredientes("mangericao");
+		p1.adicionaIngredientes("manjericao");
 		
 		assertEquals(45,p1.getPreco(),0);
 	}
@@ -28,8 +28,8 @@ class PizzaTest {
 	public void testGetPreco6Ingredientes() {
 		Pizza p1 = new Pizza();
 		p1.adicionaIngredientes("mussarela");
-		p1.adicionaIngredientes("oregano");
-		p1.adicionaIngredientes("mangericao");
+		p1.adicionaIngredientes("tomate");
+		p1.adicionaIngredientes("manjericao");
 		p1.adicionaIngredientes("ovo");
 		p1.adicionaIngredientes("presunto");
 		p1.adicionaIngredientes("pimentao");
